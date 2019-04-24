@@ -21,6 +21,9 @@ const limits = {
   }
 };
 
-limits['BSV-BCH'] = limits['ETH-BCH'] = limits['LTC-BCH'] = limits['BTC-BCH'];
+limits['BSV-BCH'] = limits['BTC-BCH'];
+limits['ETH-BCH'] = limits['BTC-BCH'];
+limits['LTC-BCH'] = limits['BTC-BCH'];
+limits['SPICE-BCH'] = limits['BTC-BCH'];
 
 module.exports = limits;
