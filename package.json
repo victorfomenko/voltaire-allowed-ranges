@@ -1,6 +1,6 @@
 {
   "name": "voltaire-allowed-ranges",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Allowed ranges for order prices and quantities",
   "main": "index.js",
