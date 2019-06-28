@@ -22,16 +22,16 @@ const limits = {
   'SPICE-BCH': {
     limit: {
       buy: {
-        quantity: { min: Big(1), max: Big(1000) },
-        price: { min: Big(0.00000001), max: Big(1000) }
+        quantity: { min: Big(1), max: Big(1000000) },
+        price: { min: Big(0.00000001), max: Big(10) }
       },
       sell: {
-        quantity: { min: Big(1), max: Big(1000) },
-        price: { min: Big(0.00000001), max: Big(1000) }
+        quantity: { min: Big(1), max: Big(1000000) },
+        price: { min: Big(0.00000001), max: Big(10) }
       }
     },
     market: {
-      buy: { min: Big(0.000001), max: Big(100000) },
+      buy: { min: Big(0.000001), max: Big(100) },
       sell: { min: Big(1), max: Big(1000000) }
     }
   }
