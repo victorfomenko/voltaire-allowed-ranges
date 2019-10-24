@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:voltaire-cash/open-source/voltaire-allowed-ranges.git"
+    "url": "https://github.com/victorfomenko/voltaire-allowed-ranges.git"
   },
   "files": "index.js",
   "author": "",
